@@ -22,9 +22,9 @@ fi
 CHARGE_STATION_ID="$2"
 SERVER_ID="$1"
 SP="$3"
-CSMS_SP1_BASE="ws://${SERVER_ID}:8081"
-CSMS_SP2_BASE="wss://${SERVER_ID}:8443"
-CSMS_SP3_BASE="wss://${SERVER_ID}:8444"
+CSMS_SP1_BASE="ws://${SERVER_ID}"
+CSMS_SP2_BASE="wss://${SERVER_ID}"
+CSMS_SP3_BASE="wss://${SERVER_ID}"
 
 
 if [[ "$SP" =~ sp1 ]]; then
